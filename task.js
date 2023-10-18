@@ -71,4 +71,11 @@ const validateInputs = () => {
 
 };
 
-// document.getElementById("likeButton").click();
+function goToAnotherPage() {
+    
+    var targetPageURL = "./login.html";
+    window.location.href = targetPageURL;
+}
+
+
+document.getElementById("linkbtn").addEventListener("click", goToAnotherPage);

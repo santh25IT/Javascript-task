@@ -48,3 +48,11 @@ const validateInputs = () => {
     }
 
 };
+function goToAnotherPage() {
+    
+    var targetPageURL = "./list.html";
+    window.location.href = targetPageURL;
+}
+
+
+document.getElementById("linkbtn").addEventListener("click", goToAnotherPage);
